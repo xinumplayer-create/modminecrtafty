@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.clanmod.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

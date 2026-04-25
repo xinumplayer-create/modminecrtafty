@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1.0,
+  "id": "clanmod",
+  "version": "1.0.0",
+  "name": "ClanMod",
+  "description": "BY Xrangel_",
+  "authors": ["Xrangel_"],
+  "contact": {},
+  "license": "Dexland",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.clanmod.mod.ClanModClient"
+    ]
+  },
+  "mixins": ["clanmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
